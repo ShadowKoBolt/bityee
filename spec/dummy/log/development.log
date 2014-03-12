@@ -1,0 +1,10 @@
+  [1m[36m (153.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (207.7ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8472ms
+  MOPED: 127.0.0.1:27017 INSERT       database=bityee_development collection=bityee_pages documents=[{"_id"=>BSON::ObjectId('531c1b746269740f23000000'), "name"=>"dsa"}] flags=[]
+                         COMMAND      database=bityee_development command={:getlasterror=>1, :w=>1} runtime: 285.6555ms
+  MOPED: 127.0.0.1:27017 QUERY        database=bityee_development collection=bityee_pages selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 1.4935ms
+  MOPED: 127.0.0.1:27017 QUERY        database=bityee_development collection=bityee_pages selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 1.3319ms
+  MOPED: 127.0.0.1:27017 DELETE       database=bityee_development collection=bityee_pages selector={"_id"=>BSON::ObjectId('531c1b746269740f23000000')} flags=[:remove_first]
+                         COMMAND      database=bityee_development command={:getlasterror=>1, :w=>1} runtime: 0.7673ms

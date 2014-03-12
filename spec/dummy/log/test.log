@@ -1,0 +1,189 @@
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8024ms
+  MOPED: 127.0.0.1:27017 INSERT       database=bityee_test collection=bityee_pages documents=[{"_id"=>BSON::ObjectId('531c39d562697410b6000000'), "name"=>"Page 1"}] flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 367.0768ms
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7320ms
+  MOPED: 127.0.0.1:27017 INSERT       database=bityee_test collection=bityee_pages documents=[{"_id"=>BSON::ObjectId('5320caa86269743d47000000'), "name"=>"Page 1"}] flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 9.1512ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7623ms
+  MOPED: 127.0.0.1:27017 INSERT       database=bityee_test collection=bityee_pages documents=[{"_id"=>BSON::ObjectId('5320cbea6269743ff5000000'), "name"=>"Page 1"}] flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 0.2530ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.8ms)[0m  [1mbegin transaction[0m
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6919ms
+  MOPED: 127.0.0.1:27017 INSERT       database=bityee_test collection=bityee_pages documents=[{"_id"=>BSON::ObjectId('5320cc10626974405c000000'), "name"=>"Page 1"}] flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 0.2703ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7224ms
+  MOPED: 127.0.0.1:27017 INSERT       database=bityee_test collection=bityee_pages documents=[{"_id"=>BSON::ObjectId('5320cd6762697440f0000000'), "name"=>"Page 1"}] flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 0.0312ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  MOPED: 127.0.0.1:27017 INSERT       database=bityee_test collection=bityee_pages documents=[{"_id"=>BSON::ObjectId('5320cd6762697440f0010000'), "name"=>"Page 2"}] flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 0.4463ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=bityee_test collection=bityee_pages selector={"_id"=>BSON::ObjectId('5320cd6762697440f0010000')} update={"$push"=>{"sections"=>{"_id"=>BSON::ObjectId('5320cd6762697440f0020000'), "name"=>"Section 1"}}} flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 1.2775ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7730ms
+  MOPED: 127.0.0.1:27017 INSERT       database=bityee_test collection=bityee_pages documents=[{"_id"=>BSON::ObjectId('5320cdb86269744173000000'), "name"=>"Page 1"}] flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 0.2714ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=bityee_test collection=bityee_pages selector={"_id"=>BSON::ObjectId('5320cdb86269744173000000')} update={"$push"=>{"sections"=>{"_id"=>BSON::ObjectId('5320cdb86269744173010000'), "name"=>"Section 1"}}} flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 0.3649ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  MOPED: 127.0.0.1:27017 INSERT       database=bityee_test collection=bityee_pages documents=[{"_id"=>BSON::ObjectId('5320cdb86269744173020000'), "name"=>"Page 2"}] flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 0.3942ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  MOPED: 127.0.0.1:27017 INSERT       database=bityee_test collection=bityee_pages documents=[{"_id"=>BSON::ObjectId('5320cdb86269744173030000'), "name"=>"Page 3"}] flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 0.4754ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6515ms
+  MOPED: 127.0.0.1:27017 INSERT       database=bityee_test collection=bityee_pages documents=[{"_id"=>BSON::ObjectId('5320cdda62697441b2000000'), "name"=>"Page 1"}] flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 0.2544ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  MOPED: 127.0.0.1:27017 INSERT       database=bityee_test collection=bityee_pages documents=[{"_id"=>BSON::ObjectId('5320cdda62697441b2010000'), "name"=>"Page 2"}] flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 0.3727ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  MOPED: 127.0.0.1:27017 INSERT       database=bityee_test collection=bityee_pages documents=[{"_id"=>BSON::ObjectId('5320cdda62697441b2020000'), "name"=>"Page 3"}] flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 0.8069ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=bityee_test collection=bityee_pages selector={"_id"=>BSON::ObjectId('5320cdda62697441b2020000')} update={"$push"=>{"sections"=>{"_id"=>BSON::ObjectId('5320cdda62697441b2030000'), "name"=>"Section 1"}}} flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 0.3928ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6624ms
+  MOPED: 127.0.0.1:27017 INSERT       database=bityee_test collection=bityee_pages documents=[{"_id"=>BSON::ObjectId('5320ce73626974423d000000'), "name"=>"Page 1"}] flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 0.3190ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=bityee_test collection=bityee_pages selector={"_id"=>BSON::ObjectId('5320ce73626974423d000000')} update={"$push"=>{"sections"=>{"_id"=>BSON::ObjectId('5320ce73626974423d010000'), "name"=>"Section 1"}}} flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 0.3998ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  MOPED: 127.0.0.1:27017 INSERT       database=bityee_test collection=bityee_pages documents=[{"_id"=>BSON::ObjectId('5320ce73626974423d020000'), "name"=>"Page 2"}] flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 0.4154ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  MOPED: 127.0.0.1:27017 INSERT       database=bityee_test collection=bityee_pages documents=[{"_id"=>BSON::ObjectId('5320ce73626974423d030000'), "name"=>"Page 3"}] flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 0.3252ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  MOPED: 127.0.0.1:27017 INSERT       database=bityee_test collection=bityee_pages documents=[{"_id"=>BSON::ObjectId('5320ce73626974423d040000'), "name"=>"Page 4"}] flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 0.3143ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.4555ms
+  MOPED: 127.0.0.1:27017 INSERT       database=bityee_test collection=bityee_pages documents=[{"_id"=>BSON::ObjectId('5320ce866269744270000000'), "name"=>"Page 1"}] flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 0.2644ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=bityee_test collection=bityee_pages selector={"_id"=>BSON::ObjectId('5320ce866269744270000000')} update={"$push"=>{"sections"=>{"_id"=>BSON::ObjectId('5320ce866269744270010000'), "name"=>"Section 1"}}} flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 0.3708ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  MOPED: 127.0.0.1:27017 INSERT       database=bityee_test collection=bityee_pages documents=[{"_id"=>BSON::ObjectId('5320ce866269744270020000'), "name"=>"Page 2"}] flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 0.4157ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  MOPED: 127.0.0.1:27017 INSERT       database=bityee_test collection=bityee_pages documents=[{"_id"=>BSON::ObjectId('5320ce866269744270030000'), "name"=>"Page 3"}] flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 0.3071ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  MOPED: 127.0.0.1:27017 INSERT       database=bityee_test collection=bityee_pages documents=[{"_id"=>BSON::ObjectId('5320ce866269744270040000'), "name"=>"Page 4"}] flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 0.3282ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.5047ms
+  MOPED: 127.0.0.1:27017 INSERT       database=bityee_test collection=bityee_pages documents=[{"_id"=>BSON::ObjectId('5320cf2d62697443f8000000'), "name"=>"Page 1", "path"=>"path-1"}] flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 0.2757ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=bityee_test collection=bityee_pages selector={"_id"=>BSON::ObjectId('5320cf2d62697443f8000000')} update={"$push"=>{"sections"=>{"_id"=>BSON::ObjectId('5320cf2d62697443f8010000'), "name"=>"Section 1"}}} flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 0.3771ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  MOPED: 127.0.0.1:27017 INSERT       database=bityee_test collection=bityee_pages documents=[{"_id"=>BSON::ObjectId('5320cf2d62697443f8020000'), "name"=>"Page 2", "path"=>"path-2"}] flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 0.4141ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  MOPED: 127.0.0.1:27017 INSERT       database=bityee_test collection=bityee_pages documents=[{"_id"=>BSON::ObjectId('5320cf2d62697443f8030000'), "name"=>"Page 3", "path"=>"path-3"}] flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 0.3902ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  MOPED: 127.0.0.1:27017 INSERT       database=bityee_test collection=bityee_pages documents=[{"_id"=>BSON::ObjectId('5320cf2d62697443f8040000'), "name"=>"Page 4", "path"=>"path-4"}] flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 0.4016ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6592ms
+  MOPED: 127.0.0.1:27017 INSERT       database=bityee_test collection=bityee_pages documents=[{"_id"=>BSON::ObjectId('5320d31d626974520f000000'), "name"=>"Page 1", "path"=>"path-1"}] flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 0.3115ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  MOPED: 127.0.0.1:27017 INSERT       database=bityee_test collection=bityee_pages documents=[{"_id"=>BSON::ObjectId('5320d31d626974520f010000'), "name"=>"Page 2", "path"=>"path-2"}] flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 0.6735ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  MOPED: 127.0.0.1:27017 INSERT       database=bityee_test collection=bityee_pages documents=[{"_id"=>BSON::ObjectId('5320d31d626974520f020000'), "name"=>"Page 3", "path"=>"path-3"}] flags=[]
+                         COMMAND      database=bityee_test command={:getlasterror=>1, :w=>1} runtime: 0.3832ms
+  [1m[35m (0.1ms)[0m  rollback transaction
