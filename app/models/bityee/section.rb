@@ -4,6 +4,6 @@ class Bityee::Section
 
   field :name
 
-  embedded_in :page, class_name: 'Bityee::Page'
+  has_and_belongs_to_many :page, class_name: 'Bityee::Page'
 
 end

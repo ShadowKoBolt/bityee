@@ -42,4 +42,9 @@ RSpec.configure do |config|
   config.include FactoryGirl::Syntax::Methods
   factories_path = File.expand_path('../factories/**/*.rb', __FILE__) 
   Dir[factories_path].each {|f| require f}
+
+  # clear db
+  config.before :each do
+    Mongoid::Sessions.default.collections.select {|c| c.name !~ /system/ }.each(&:drop)
+  end
 end

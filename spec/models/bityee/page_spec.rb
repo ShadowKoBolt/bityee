@@ -14,6 +14,12 @@ module Bityee
         expect(subject).to_not be_valid
       end
 
+      it 'requires a unique name' do
+        FactoryGirl.create(:bityee_page, name: 'Foo')
+        subject.name = 'Foo'
+        expect(subject).to_not be_valid
+      end
+
       it 'requires a path' do
         subject.path = nil
         expect(subject).to_not be_valid

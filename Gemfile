@@ -22,5 +22,4 @@ group :development, :test do
   gem 'rspec', '~> 3.0.0.beta2'
   gem 'factory_girl', '~> 4.4.0'
   gem 'pry', '~> 0.9.12.6'
-  gem 'database_cleaner', '~> 1.2.0'
 end

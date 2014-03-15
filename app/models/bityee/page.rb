@@ -7,10 +7,9 @@ class Bityee::Page
   field :meta_title
   field :meta_description
 
-  embeds_many :sections, class_name: 'Bityee::Section'
+  has_and_belongs_to_many :sections, class_name: 'Bityee::Section'
 
-  validates :name, presence: true
-  validates :path, presence: true
+  validates :name, :path, presence: true, uniqueness: true
 
   before_validation :set_path
 

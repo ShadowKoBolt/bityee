@@ -8,3 +8,10 @@
   MOPED: 127.0.0.1:27017 QUERY        database=bityee_development collection=bityee_pages selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 1.3319ms
   MOPED: 127.0.0.1:27017 DELETE       database=bityee_development collection=bityee_pages selector={"_id"=>BSON::ObjectId('531c1b746269740f23000000')} flags=[:remove_first]
                          COMMAND      database=bityee_development command={:getlasterror=>1, :w=>1} runtime: 0.7673ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.6429ms
+  MOPED: 127.0.0.1:27017 INSERT       database=bityee_development collection=bityee_pages documents=[{"_id"=>BSON::ObjectId('53240e5d6269744e11020000'), "name"=>"bob", "path"=>"bob"}] flags=[]
+                         COMMAND      database=bityee_development command={:getlasterror=>1, :w=>1} runtime: 7.1551ms
+  MOPED: 127.0.0.1:27017 QUERY        database=bityee_development collection=bityee_pages selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 2.1530ms
+  MOPED: 127.0.0.1:27017 QUERY        database=bityee_development collection=bityee_pages selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.7826ms
+  MOPED: 127.0.0.1:27017 DELETE       database=bityee_development collection=bityee_pages selector={"_id"=>BSON::ObjectId('53240e5d6269744e11020000')} flags=[:remove_first]
+                         COMMAND      database=bityee_development command={:getlasterror=>1, :w=>1} runtime: 2.1550ms
